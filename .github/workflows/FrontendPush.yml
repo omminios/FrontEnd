@@ -19,4 +19,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./Static s3://staticbucket3782 --recursive --acl public-read --delete
+          aws s3 sync ./Static s3://staticbucket3782 --acl public-read --delete
